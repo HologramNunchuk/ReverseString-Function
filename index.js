@@ -32,5 +32,5 @@ function reverseLoop(input) {
 }
 
 console.log(
-  reverseLoop("uoy lortnoc lliw ecroF ruoy ro ,ecroF lortnoc ot nraeL")
+  reverseLoop("uoy lortnoc lliw ecroF ruoy ro ,ecroF rouy lortnoc ot nraeL")
 );
