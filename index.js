@@ -1,4 +1,4 @@
-//FUNCTION REVERSES A STRING
+//FUNCTION REVERSES A STRING with built in functions
 
 function reverseString(input) {
   let splitString = input.split("");
@@ -18,4 +18,20 @@ function backwardString(input) {
     .join("");
 }
 
-console.log(backwardString("rettam edurc siht ton ,era ew suonimuL"));
+console.log(backwardString("rettam edurc siht ton ,era ew sgieB suonimuL"));
+
+//FUNCTION THAT REVERSES A STRING WITH A FOR LOOP
+
+function reverseLoop(input) {
+  let moonwalkString = "";
+
+  for (let i = input.length - 1; i >= 0; i--) {
+    moonwalkString += input[i];
+    [i];
+  }
+  return moonwalkString;
+}
+
+console.log(
+  reverseLoop("uoy lortnoc lliw ecroF ruoy ro ,ecroF lortnoc ot nraeL")
+);
